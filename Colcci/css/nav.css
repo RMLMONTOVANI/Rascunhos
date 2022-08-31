@@ -1,0 +1,419 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ 
+  font-family: Poppins,sans-serif;
+  
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.letreiro{
+  flex: 100%;
+  background-color: black;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+}
+
+.letreiro-texto-um{
+  color: white;
+  font-weight: 700;
+}
+
+.letreiro-texto-dois{
+  color: white;
+  display: none;
+}
+
+
+
+nav{
+  display: flex;
+  background-color: rgb(43,43,43,0.3);
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  position: fixed;
+  width: 100vw;
+  height: 107px;
+  position: fixed;
+  
+  
+}
+
+.logo{
+  
+  margin-left: 3%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 16px;
+  left: 2px;
+}
+
+.menu{
+  
+  height: 100%;
+  display: flex;
+  position: relative;
+  bottom: 14px;
+  left: -50px;
+  z-index: 20;
+  
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+#link1{
+  position: relative;
+  
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+  font-family: Poppins,sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 1
+}
+
+.icons{
+  
+  width: 200px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  bottom: 20px;
+}
+
+.icons img{
+  margin: 10px;
+  filter: invert(100%);
+}
+
+.links-feminino{
+  background-color: white;
+  position: absolute;
+  width: 950px;
+  
+  top: -500px;
+  
+  
+}
+
+.links-feminino li{
+  
+ 
+}
+
+.links-feminino a{
+  font-size: 12px;
+  color: #5b5b5b;
+  
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+.menu ul li a{
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 99;
+}
+
+.menu ul li a:hover{
+  color: black;
+  font-weight: 700;
+}
+
+
+
+.menu ul li ul{
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  height: 318px;
+  position: absolute;
+  transition: all 0.5s;
+
+  
+}
+
+.menu ul li:hover ul{
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  transform: translateY(548px);
+  height: 318px;
+  transition: all 0.5s;
+  position: absolute;
+ 
+  
+  
+  
+  
+}
+
+
+.links-masculino{
+  background-color: white;
+  position: absolute;
+  width: 950px;
+  left: 0px;
+  top: -500px;
+ 
+  
+}
+
+.links-masculino a{
+  font-size: 12px;
+  color: #5b5b5b;
+  
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.links-sport{
+  background-color: white;
+  position: absolute;
+  width: 950px;
+  left: 0px;
+  top: -500px;
+ 
+  
+}
+
+.links-sport a{
+  font-size: 12px;
+  color: #5b5b5b;
+  
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.acessorios{
+  background-color: white;
+  position: absolute;
+  width: 950px;
+  left: 0px;
+  top: -500px;
+ 
+  
+}
+
+.acessorios a{
+  font-size: 12px;
+  color: #5b5b5b;
+  
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.sale{
+  background-color: white;
+  position: absolute;
+  width: 950px;
+  left: 0px;
+  top: -500px;
+ 
+  
+}
+
+.sale a{
+  font-size: 12px;
+  color: #5b5b5b;
+  
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+.middle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle div{
+  padding: 25px;
+  margin: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+
+.grades{
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -30px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+
+.grade{
+  flex: 50%;
+}
+
+.grade img{
+  height: 100%;
+  width: 100%;
+}
+
+.divdamorena{
+  display: flex;
+  margin-top: 50px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  margin-right: 45px;
+  
+}
+
+.morenafrente{
+  text-align: left;
+  
+  
+  flex:10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.morenafrente p{
+  margin-top: 2px;
+}
+
+.ruivafrente{
+  flex: 10%;
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.ruivafrente p{
+  margin-top: 2px;
+}
+
+
+
+
+
+.morena2{
+  text-align: left;
+  
+  
+  flex:10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.morena2 p{
+  margin-top: 2px;
+}
+
+
+
+.ze{
+  flex:10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+
+}
+
+.ze p{
+  margin-top: 2px;
+}
+
+.ze2{
+  flex:10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+
+}
+
+.ze2 p{
+  margin-top: 2px;
+}
+
+.ze3{
+  flex:10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+
+}
+
+.ze3 p{
+  margin-top: 2px;
+}
+
+
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 55px;
+  height: 100px;
+}
+
+.icones{
+  margin: 5px;
+}
+
+.formulario{
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
