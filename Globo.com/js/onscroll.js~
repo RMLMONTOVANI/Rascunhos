@@ -1,0 +1,6 @@
+let imglogo = document.getElementById('imglogo');
+let bodymenu = document.querySelector('body');
+
+bodymenu.onscroll = function(){
+    imglogo.style.width = '140px';
+}

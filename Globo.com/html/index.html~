@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+	<link href="../css/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+
+	<header>
+	    
+	    <nav class="navbar">
+		<input id="checkbox" name="" type="checkbox" value="" />
+		<label id="labelmenu" for="checkbox" style="cursor: pointer;"><img style="height: 24px;" alt="" src="../img/labelmenu.png"/> </label>
+	
+	
+		<Ul class="menu">
+
+		    <label for="checkbox" style="float: right; position: relative; right: 135px; top: -25px; margin-top: 80px;"><img style="width: 25px; height: 25px;" alt="" src="../img/fechar.png"/></label>
+		    <div class="cadastro-menu">
+		
+			<div><a href=""><img style="height: 20px; width: 22px;" alt="" src="../img/usr.png"/></a></div>
+			<div><a href=""><p style="margin-left: 10px; font-weight: 700;">Acesse sua conta  <span style="font-size: 12px; letter-spacing: 2px;">cadastre-se grátis</span></p></a></div>
+			
+		    </div>
+		    
+
+					
+			<div class="menu-principal">
+			<li>
+			    <div><a href=""><img alt="" src="../img/g1.svg"/></a></div>
+			    <div><a href=""><p>G1</p></a></div>
+			</li>
+			
+			<li>
+			    <div><a href=""><img alt="" src="../img/oglobo.svg"/></a></div>
+			    <div><a href=""><p>O Globo</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/valor.svg"/></a></div>
+			    <div><a href=""><p>Valor</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/ge.svg"/></a></div>
+			    <div><a href=""><p>ge</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/cartolafc.svg"/></a></div>
+			    <div><a href=""><p>Cartola</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/globoplay.svg"/></a></div>
+			    <div><a href=""><p>Globoplay</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/gshow.svg"/></a></div>
+			    <div><a href=""><p>Gshow</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/quem.svg"/></a></div>
+			    <div><a href=""><p>Quem</p></a></div>
+			</li>
+
+			<li>
+			    <div><a href=""><img alt="" src="../img/receitas.svg"/></a></div>
+			    <div><a href=""><p>Receitas</p></a></div>
+			</li>
+			</div>
+		
+			<div class="links-down">
+			    <li><a href="">Gigagloob</a></li>
+			    <li><a href="">Previsão do Tempo</a></li>
+			    <li><a href="">Ofertas</a></li>
+			    <li><a href="">Podcasts</a></li>
+			    <li><a href="">Seu time</a></li>
+			    <li><a href="">Campeonatos de Futebol</a></li>
+			    <li><a href="">Serviços</a></li>
+			    <li><a href="">Tecnologia</a></li>
+			    <li><a href="">Carros</a></li>
+			    <li><a href="">Jornalismo</a></li>
+			    <li><a href="">Cultura e Comportamento</a></li>
+			    <li><a href="">Novelas e Programas</a></li>
+			    <li><a href="">Telejornais</a></li>
+			    <li><a href="">TV Globo</a></li>
+			    <li><a href="">Canais Globo</a></li>
+			    <li><a href="">Globo</a></li>
+			    <li><a href="">Mémoria Globo</a></li>
+			    <li><a href="">Grupo Globo</a></li>
+			</div>
+			<hr/>
+			<div class="grupoGlobo">
+			    <div><img alt="" src="../img/grupoGlobo.svg"/></div>
+			    <div><p>GRUPO GLOBO - principais editoriais</p></div>
+			</div>
+		</ul>
+		
+	    </nav>
+
+	    <div style="position: relative; left: -150px; top: -11px; z-index: 1" class="assine">
+		<a href="">Assine</a>
+	    </div>
+
+	    <div class="logo"><a href="#"><img style="width: 160px; position: relative; top: 5px;" alt="" src="../img/logo.png"/></a></div>
+
+	    <div class="links-end">
+	    <div class="links">
+		<a href="">
+		    <p style="position: relative; top: -6px;">Conta Globo</p>
+		    <img style="position: relative; top: 2px;" alt="" src="../img/usr.png"/>
+		</a>
+	    </div>
+
+	    <div class="links1">
+		<a href="">
+		    <p style="position: relative; top: -6px;">Busca</p>
+		    <img style="width: 24px; position: relative; top: 2px;" alt="" src="../img/lupa.png"/>
+		</a>
+	     </div>
+
+	    </div>
+	</header>
+
+	<subnav>
+	    <ul>
+		<li><a style="color: #c4170c; font-weight: 600;" href="">g1</a></li>
+		<li><a style="color: #1e4c9a; font-weight: 600;" href="">o globo</a></li>
+		<li><a style="color: #006767; font-weight: 600;" href="">valor</a></li>
+		<li><a style="color: #06aa48;font-weight: 600;" href="">ge</a></li>
+		<li><a style="color: #ff7400;font-weight: 600;" href="">cartola</a></li>
+		<li><a style="color: #fb0738;font-weight: 600;" href="">globoplay</a></li>
+		<li><a style="color: #ff6700;font-weight: 600;" href="">gshow</a></li>
+		<li><a style="color: #333333;font-weight: 600;" href="">quem</a></li>
+		<li><a style="color: #a5147d;font-weight: 600;" href="">receitas</a></li>
+		<li><a style="color: #00c4a2;font-weight: 600;" href="">giga gloob</a></li>
+	    </ul>
+	</subnav>
+
+	<section class="banner-propaganda">
+	    <a href=""><img alt="" src="../img/propunderheader.png"/></a>
+	</section>
+
+
+	<section class="noticias-principais">
+
+	    <div class="coluna-esquerda">
+		
+		<div class="esqueda-items1">
+		    
+		    <h1>
+			Pesquisa Ipec aponta Lula com 44%, Bolsonaro 32%, Ciro 7%, e Tebet 3%
+		    </h1>
+
+		    <ul class="lista-principal">
+			<li><a href="">Lula tem 50% e Bolsonaro tem 37% no segundo turno, aponta Ipec</a></li>
+			<li><a href="">Bolsonaro tem 47% de rejeição e Lula tem 36%, mostra pesquisa</a></li>
+			<li><a href="">'Suspiro a Bolsonaro e Lula' e 'tudo como antes'; colunistas analisam</a></li>
+		    </ul>
+		   
+		</div>
+		
+		<div class="esqueda-items">
+		    <a href=""><img alt="" src="../img/corinthians.webp"/></a>
+		    <a href=""><h2 class="link-esporte">Corinthians sofre, mas bate Bragantino e se mantém no G-4</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Willian acerta com Fulham após rescindir com Timão</a></li>
+		    </ul>
+		</div>
+		<div class="esqueda-items">
+		    <a href=""><img alt="" src="../img/bolsonaro.webp"/></a>
+		    <a href=""><h2 class="link-noticiax" >Chile reage a fala de bolsonaro e convoca embaixador do país</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Chile alega que acusações são gravissimas</a></li>
+		    </ul>
+		</div>
+		<div class="esqueda-items">
+		    <a href=""> <img alt="" src="../img/novo.webp"/></a>
+		    <a href=""> <h2 class="link-noticiax"">Após ordem do STF, mulher de Silveira é bloqueada na web</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Ministro do TSE manda remover site anti-Ciro</a></li>
+		    </ul>
+		</div>
+		<div class="esqueda-items">
+		    <a href=""> <img alt="" src="../img/variolademacaco.webp"/></a>
+		    <a href=""> <h2 class="link-noticiax"">Fiocruz isola e fotografa vírus da varíola dos macacos</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Após MG, RJ tem a 1ª morte pela doença</a></li>
+		    </ul>
+		</div>
+		<div class="esqueda-items">
+		    <a href=""><img alt="" src="../img/just.webp"/></a>
+		    <a href=""> <h2 class="link-noticiax" >RJ: Justiça decreta prisão de cônsul, e nome vai à Interpol</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Após ser solto, cônsul chegou à Alemanha hoje</a></li>
+		    </ul>
+		</div>
+		<div class="esqueda-items">
+		    <a href=""> <img alt="" src="../img/ucrania.webp"/></a>
+		    <a href=""> <h2 class="link-noticiax" >Ucrânia anuncia contraofensiva para retomar cidades </h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="" >Conflito após renúncia de líder no Iraque mata 12</a></li>
+		    </ul>
+		</div>
+	    </div>
+	    <div class="coluna-direita">
+
+		<div>
+		    <a href=""><img alt="" src="../img/vidal.webp"/></a>
+		    <a href=""><h2 class="link-esporte">Vidal fala da adaptação ao Fla e projeta semi da Liberta: 'Será muito difícil'</h2></a>
+		    <ul>
+			<li><a class="sub-noticia" href="">Goleiro do Juve alega ofensas racistas, e torcedor é detido</a></li>
+			<li><a class="sub-noticia" href="">Fla embarca para encarar Vélez</a></li>
+		    </ul>
+		</div>
+		<div id="inter">
+
+		    <a href=""><img alt="" src="../img/inter.webp"/></a>
+		    <a href=""><h2 class="link-esporte">Inter goleia o lanterna Juventude no Beira-Rio e vence a terceira seguida</h2></a>
+		    <li><a class="sub-noticia" href="">Confira a classificação atualizada</a></li>
+		</div>
+		<div id="palmeiras">
+		    <a href=""><img alt="" src="../img/pal.webp"/></a>
+		    <a href=""><h2 class="link-esporte">Em partida de 7 gols no sub-20, Palmeiras goleia o Athletico na ida da semi</h2></a>
+		    <li><a class="sub-noticia" href="">Endrick aplica chapéu e faz golaço pelo Palmeiras; vídeo</a></li>
+		</div>
+		<div id="anitta">
+		       <a href=""><img alt="" src="../img/anitta.webp"/></a>
+		       <a href=""><h2 class="link-celebs">Com série de cliques, Anitta volta a agradecer prêmio: 'Fizemos história'</h2></a>
+		       <li><a class="sub-noticia" href="">Prêmio Multishow 2022: Anitta e Gloria Groove lideram indicações</a></li>
+		</div>
+		<div>
+		      <a href=""><img alt="" src="../img/pantanal.webp"/></a>
+		      <a href=""><h2 class="link-celebs">‘Pantanal’: Filó colocará Tadeu contra parede em relação a Zefa </h2></a>
+		       
+		</div>
+		<div>
+		     <a href=""><img alt="" src="../img/ator.webp"/></a>
+		     <a href=""><h2 class="link-celebs">Carmo Dalla Vecchia faz elogio a Kaysar: 'Sorte dele eu já ser casado'</h2></a>
+		       <li><a class="sub-noticia" href="">Prêmio Multishow 2022: Anitta e Gloria Groove lideram indicações</a></li>
+		</div>
+		
+		
+	    </div>
+	    
+	    
+	</section>
+
+	<a href=""><div class="banner2"><img alt="" src="../img/banner2.png"/></div></a>
+	
+    </body>
+</html>
