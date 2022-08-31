@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Acme&family=Alfa+Slab+One&family=Alumni+Sans+Collegiate+One&family=Amatic+SC&family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=DynaPuff&family=Homemade+Apple&family=IM+Fell+Double+Pica+SC&family=Inspiration&family=Kaushan+Script&family=PT+Serif+Caption&family=Permanent+Marker&family=Rajdhani&family=Red+Hat+Display:wght@400;500;700&family=Roboto:wght@400;500;700&family=Rubik+Distressed&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body a{
+  font-family: 'Acme', sans-serif;
+}
+
+
+
+header{
+  height: 250px;
+  background-color: #111;
+  display: flex;
+  text-align: start;
+  justify-content: end;
+  width: 100%;
+  margin-top: -80px;
+  
+  
+}
+
+.menu{
+  height: 100px;
+  width: 250px;
+  background: #111;
+  position:fixed;
+  
+  
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+}
+
+.menu a:hover{
+  padding: 5px;
+  border-top: 0.5px solid black;
+  transition: all 0.4s;
+}
+
+.logo{
+  margin-left: -20px;
+  margin-top: 26px;
+  font-size: 16px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  
+}
+
+.menu h1{
+  text-align: center;
+  margin-top: -60px;
+  margin-left: 65px;
+  width: 160px;
+  padding: px;
+  color: white;
+ 
+  height: 95px;
+}
+
+.menu h2{
+  color: green;
+}
+
+
+input{
+  display: none ;
+  
+  
+}
+
+
+.menu ul{
+  overflow: hidden;
+  height: 1080px;
+  transition: all 0.4s;
+  background: white;
+  position: relative;
+  width: 500px;
+  top: -142px;
+  border: 1px solid black;
+  
+}
+
+.menu li{
+  padding: 14px;
+  margin-left: 80px;
+  top: 20px;
+  list-style: none;
+}
+
+logo_dentro{
+  color: black;
+}
+
+
+
+#checkbox:checked ~ ul{
+  height:0px;
+  transform: translateX(-2000px);
+  transition: all 1s;
+  
+}
+
+label{
+  margin-left: 7px;
+  margin-top: -10px;
+  
+}
+
+
+.box1{
+  height: 150px;
+  width: 500px; 
+  background: white;
+  
+  flex: 20%;
+}
+
+.box2{
+  height: 200px;
+  width: 200px;
+  background: green;
+  
+  flex: 50%;
+  
+}
+
+
+
+.btn-header{
+  height: 600px;
+  width: 50px;
+  position:fixed;
+  margin-top: 300px;
+  z-index: 99;
+  
+  
+  
+}
+
+
+.btn-header ul li a{
+  display:block;
+}
+
+.btn-header ul{
+  overflow: hidden;
+  height: 0px;
+  transition: all 0.7s;
+  
+  margin-top: 500px;
+  
+}
+
+
+
+#prompt:checked ~ ul{
+  height: 680px;
+  transform: translateY(-640px);
+  margin-left: -625px;
+  transition: all 0.7;
+ 
+  
+}
+
+.btn-header label{
+  position: relative
+  display: block;
+  
+  
+}
+
+.btn-header ul{
+  
+  width: 600px;
+  
+}
+
+.teste{
+  height: 200px;
+  width: 200px;
+ 
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.divteste{
+  flex: 20%;
+}
+
+
+.box1{
+  background-color: #111;
+  height: 250px;
+  width: 250px;
+  flex: 40%;
+  text-align: end;
+  margin-left: 400px;
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
+.imghead img{
+  max-width: 100%;
+  max-height:100 %;
+  
+  margin-top: 40px
+  
+  
+}
+
+.imghead{
+  display: flex;
+  flex-flow: row wrap;
+  
+  height: 240px;
+}
+
+.imghead a{
+  flex: 20%;
+  margin: 2px;
+  
+}
+
+.icones img{
+  height: 25px;
+  width: 25px;
+  
+}
+
+.icones{
+  margin: 5px;
+  
+}
+.redes{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background: #111;
+  
+  text-align: left;
+ 
+}
+
+.icones a{
+  transition: all 0.5s;
+  margin: 5px;
+}
+
+.icones a:hover{
+  padding: 4px;
+  transition: all 0.5s;
+  border-bottom: 1px solid white;
+  
+}
+
+
+.aprenda{
+ 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28%;
+  margin-right: 11%;
+  margin-top: 80px;
+  background-color: #111;
+  height: 900px;
+}
+
+.link-aprenda{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -162px;
+}
+
+/*teste*/
+
+.cards{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #492271;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 14px;
+  transition: all 0.5s linear;
+  
+}
+
+.texto-oculto{
+  display: none;
+  
+  
+}
+
+
+.cards{
+  background-color: #00a0d8;
+}
+
+.cards:hover{
+  background-color: #ffad00;
+  
+  transition: all 0.5s linear;
+  
+}
+
+.cards:hover .card-text{
+  display: none;
+}
+
+.cards:hover .texto-oculto{
+  display: block;
+}
+
+.cards:hover img{
+  display: none;
+}
+
+.cards h3, p{
+  color: black;
+  
+}
+
+.cards p{
+  font-size: 13px;
+}
+
+
+
+
+
+
+.jobs-text{
+  height: 800px;
+  background-color: red;
+}
+
+.jobs-text img{
+  background-color: green;
+  height: 700px;
+}
+
+
+.link-btn:hover{
+  background-color: #ffad00;
+}
+
+.link-btn{
+  text-decoration: none;
+  color: black;
+  background-color: #00a0d8;
+  padding: 18px 117px;
+  margin-top: 150px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+footer{
+  height: 400px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  margin-top: 10px;
+  background-image:url("../img/prompt.png");
+  background-size: cover;
+  
+  
+}
+
+footer ul{
+  
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+ 
+  margin-top: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  flex: 50%;
+  color: white;
+  padding: 50px;
+  transition: 0.7s;
+}
+
+footer a:hover{
+  font-size: 25px;
+  transition: 0.7s;
+}
