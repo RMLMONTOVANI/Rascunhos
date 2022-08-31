@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../css/indexestilo.css">
+    <title>Futuro Verde - A mídia independente que o Brasil precisa</title>
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+   
+  </head>
+  <body>
+
+
+    <div class="container">
+      <nav class="navbar">
+
+	<div class="logo">
+	<a href="index.html">Futuro Verde</a>
+	
+      </div>
+      <div class="menu">
+	<a href="index.html">Início</a>
+	<a href="#preservacao">Preservação</a>
+	<a href="#artigos">Destaques</a>
+	<a href="">Quem Somos</a>
+	<a id="btn-nav" href="">Fale Conosco</a>
+      </div>
+
+     
+	
+      </div>
+      
+    </nav>
+
+    
+    <div class="submenu">
+      	<div class="btn-headline">
+	  
+	  <div class="icones"> <a href="#"><img style="width: 49px; height: 49px;" alt="" src="../img/face.jpg"/></a> </div>
+	  <div class="icones"> <a href=""><img style="width: 50px; height: 50px;" alt="" src="../img/insta.png"/></a> </div>
+	  <div class="icones"> <a href=""><img style="width: 50px; height: 50px;" alt="" src="../img/twiter.png"/></a> </div>
+	  <div><p>Siga-nos nas redes sociais e fique por dentro de todas as notícias em primeira mão.</p></div>
+	  
+	</div>
+    </div>
+
+    <header>
+  	<figure>
+		<span class="trs next"></span>
+		<span class="trs prev"></span>
+
+		<div id="slider">
+		  <a href="#" class="trs"><img src="../img/foto1.webp" alt="Lagos da Amazônia são 'guerreiros' contra aquecimento global, aponta estudo" /></a>
+		  <a href="#" class="trs"><img src="../img/india.png" alt="Amazonas é o estado com maior número de assassinatos de indígenas em 2022" /></a>
+		  <a href="#" class="trs"><img src="../img/foto3.jpg" alt="Governo federal planeja conceder três florestas nacionais do Amazonas à iniciativa privada" /></a>
+		</div>
+
+		<figcaption></figcaption>
+	</figure>
+
+	<script type="text/javascript">
+	 function setaImagem(){
+	   var settings = {
+	     primeiraImg: function(){
+	       elemento = document.querySelector("#slider a:first-child");
+	       elemento.classList.add("ativo");
+	       this.legenda(elemento);
+	     },
+
+	     slide: function(){
+	       elemento = document.querySelector(".ativo");
+
+	       if(elemento.nextElementSibling){
+		 elemento.nextElementSibling.classList.add("ativo");
+		 settings.legenda(elemento.nextElementSibling);
+		 elemento.classList.remove("ativo");
+	       }else{
+		 elemento.classList.remove("ativo");
+		 settings.primeiraImg();
+	       }
+
+	     },
+
+	     proximo: function(){
+	       clearInterval(intervalo);
+	       elemento = document.querySelector(".ativo");
+	       
+	       if(elemento.nextElementSibling){
+		 elemento.nextElementSibling.classList.add("ativo");
+		 settings.legenda(elemento.nextElementSibling);
+		 elemento.classList.remove("ativo");
+	       }else{
+		 elemento.classList.remove("ativo");
+		 settings.primeiraImg();
+	       }
+	       intervalo = setInterval(settings.slide,4000);
+	     },
+
+	     anterior: function(){
+	       clearInterval(intervalo);
+	       elemento = document.querySelector(".ativo");
+	       
+	       if(elemento.previousElementSibling){
+		 elemento.previousElementSibling.classList.add("ativo");
+		 settings.legenda(elemento.previousElementSibling);
+		 elemento.classList.remove("ativo");
+	       }else{
+		 elemento.classList.remove("ativo");						
+		 elemento = document.querySelector("a:last-child");
+		 elemento.classList.add("ativo");
+		 this.legenda(elemento);
+	       }
+	       intervalo = setInterval(settings.slide,4000);
+	     },
+
+	     legenda: function(obj){
+	       var legenda = obj.querySelector("img").getAttribute("alt");
+	       document.querySelector("figcaption").innerHTML = legenda;
+	     }
+
+	   }
+
+
+	   //chama o slide
+	   settings.primeiraImg();
+
+	   //chama a legenda
+	   settings.legenda(elemento);
+1
+	   //chama o slide à um determinado tempo
+	   var intervalo = setInterval(settings.slide,4000);
+	   document.querySelector(".next").addEventListener("click",settings.proximo,false);
+	   document.querySelector(".prev").addEventListener("click",settings.anterior,false);
+
+	 }
+
+	 window.addEventListener("load",setaImagem,false);
+	</script>
+
+
+	<div class="btn-slider">
+	  <a href="">Veja todas as notícias</a>
+	  
+	</div>
+
+	<div class="logo-slider"><img alt="" src="../img/futuroverde.png"/></div>
+	<div id ="preservacao"></div>
+    </header>
+    
+    
+    <div class="section-sobre" style="margin-left: -20px; margin-top: 50px;">
+	  <div class="titulo-section-sobre">
+	    <h2 style="text-align: center; color: white; margin-top: -50px;" >Estamos lutando para proteger o meio ambiente</h2>
+	    <h3 style="text-align: center; margin-top: 5px; color: white;">Para isso, é urgente:</h3>
+	  </div>
+	  <div class="cards">
+	    <div class="card">
+	      <img style="width: 50px; height: 50px;" alt="" src="../img/desmatamento.webp"/>
+	      <p>Zerar o desmatamento</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px;" alt="" src="../img/crise.webp"/>
+	      <p>Frear a crise climática</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px;" alt="" src="../img/povos.webp"/>
+	      <p>Defender os povos das florestas</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px;" alt="" src="../img/agroecologia.webp"/>
+	      <p>Incentivar a agroecologia</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px;" alt="" src="../img/biodiversidade.webp"/>
+	      <p>Defender a biodiversidade</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px; alt="" src="../img/vaca.webp"/>
+	      <p>Reduzir o consumo de carne</p>
+	    </div>
+	    	    <div class="card">
+	      <img style="width: 50px; height: 50px; alt="" src="../img/energia.webp"/>
+	      <p>Transição energética</p>
+	    </div>
+	    <div class="card">
+	      <img style="width: 50px; height: 50px; alt="" src="../img/oceano.webp"/>
+	      <p>Proteger os oceanos</p>
+	      <div id="artigos" ></div>
+	    </div>
+
+	</div>
+
+    </div>
+
+
+	
+	
+	<ARTICLE CLASS="ARTIGO1" id="news">
+	  <div class="title-artigos" style="margin-top: 20px; letter-spacing: 10px;"><h2 style="margin-top: 50px;">Tecnologia </h2></div>
+	  <article class="artigo1">
+	<div class="img-artigo1">
+	<a href="#"><img style="width: 100%;" alt="" src="../img/artigo1.jpg"/></a>
+      </div>
+      <div class="text-artigo1">
+	<a href="#"><h2>A tecnologia pode contribuir para reduzir o impacto ambiental</h2></a>
+	<a href="#"><p>A redução da pegada de carbono da infraestrutura digital se tornou uma agenda relevante na estratégia de ESG.</p></a>
+	<a style="background-color:#48DB27; border-radius: 15px; " href="#">Leia a máteria completa</a>
+      </div>
+
+    
+      </div>
+
+    </article>
+    
+    <article class="artigo2">
+      <div class="text-artigo2">
+	<h2>Tecnologia verde: o que é? Vantagens e exemplos</h2>
+	<p>O uso de tecnologia verde agrega benefícios para as empresas, funcionários, consumidores e o meio ambiente.</p>
+	<a style="background-color: #48DB27" ; href="#">Leia a máteria completa</a>
+      </div>
+      <div class="img-artigo2">
+	<a href="#"><img style="width:100%;" alt="" src="../img/artigo2.jpg"/></a>
+      </div>
+
+     
+    </article>
+
+    <div class="title2-artigos" style="text-align: center; background-color:#FFE532; font-family: 'Amatic SC', cursive;"><h2>Gastronomia</h2></div>
+    
+    <article class="gastronomia">
+      <div class="cards2">
+	<div class="card2">
+	  <a href=""><div style="margin-top: -23px;"><img alt="" src="../img/gastroart1.jpg"/></div></a>
+	  <a href=""><div><h2>O que é gastronomia saudável?</h2></div></a>
+	  <a href=""><div><p>Muito mais do que meramente se alimentar corretamente, o conceito de gastronomia saudável passa por um estilo de vida, que busca, através de uma reeducação de nutrientes, o melhor bem-estar e qualidade de vida.</p></div></a>
+	</div>
+	</div>
+	<div class="cards2">
+	  <div class="card2">
+	    <a href=""><div><img alt="" src="../img/omelete.jpg"/></div></a>
+	    <a href=""><div><h2>Omelete de forno com atum</h2></div></a>
+	    <a href=""><div><p >Preparar a omelete no forno é uma boa maneira de deixar esse prato clássico mais saudável. Aqui, a dica é acrescentar atum, requeijão, tomate, cebola, azeitonas, parmesão e temperos à receita. O resultado é uma refeição nutritiva, cremosa e muito saborosa.</p></div></a>
+	  </div>
+      </div>
+      <div class="cards2">
+	<div class="card2">
+	  <a href=""><div style="margin-top: -25px;"><img alt="" src="../img/batadoce.jpg"/></div></a>
+	  <a href=""><div><h2>Nhoque de batata-doce fácil</h2></div></a>
+	  <a href=""><div><p>Se você ama nhoque, precisa testar essa versão caseira. A massa é preparada apenas com batata-doce, sal e farinha. Já para a finalização, aposte em um molho de tomate simples e bem tradicional. Bom apetite!</p></div></a>
+	</div>
+      </div>
+
+      <div class="todasreceitas" text-align: center;><a href="" style="text-align: center; text-decoration: none;">Veja Mais</a></div>
+
+    </article>
+
+   
+    
+
+    <script type="text/javascript">
+     $(document).ready(function () {
+       setInterval(function () {
+         $('#navbar').fadeOut(1500);
+       }, 3000);
+
+
+       setInterval(function () {
+         $('#navbar').fadeIn(1500);
+       }, 4000);
+     });
+    </script>
+    <section class="news">
+      <div class="testedebackground">
+	<img alt="" src="../img/newsletter.jpg" style="width: 100%; height: 400px;" />
+
+      </div> 
+      <div class="inputs">
+	<form>
+	<input name="email" type="email" value="" style="padding: 17px 46px;" placeholder="Digite seu email" required/>
+	<input name="ENVIAR" type="submit" value="ENVIAR" style="padding: 17px 46px;" />
+	<form>
+      </div>
+    </section>
+    
+
+     <article class="artigo3">
+      <div class="banner-artigo3">
+	<div class="titulo-banner3">
+	  <h2>Sustentabilidade</h2>
+	</div>
+      </div>
+
+      <div class="artigosust">
+      <div class="artsust">
+
+	<img alt="" src="../img/sustart1.webp"/>
+	<a href="" style="text-decoration: none;"><h2>Hidrogênio verde tem forte potencial como fonte energética no Brasil, diz pesquisa</h2></a>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust">
+	<img alt="" src="../img/sustart2.webp"/>
+	<h2>Economia e consumo consciente: vendas em brechós devem crescer 30% em 2022</h2>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust">
+	<img alt="" src="../img/sustart3.webp"/>
+	<h2>Coopercitrus capta R$174 mi junto ao Bradesco em sua 1ª emissão atrelada a metas ESG</h2>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust">
+	<img alt="" src="../img/sustart4.webp"/>
+	<h2>Para reduzir impacto ambiental, cientista desenvolve abacate sustentável</h2>
+      </div>
+      </div>
+    </article>
+
+    <!-- teste -->
+
+    <article class="artigo4">
+      <div class="banner-artigo4">
+	<div class="titulo-banner4">
+	  <h2>Economia</h2>
+	</div>
+      </div>
+
+      <div class="artigosust4">
+      <div class="artsust4">
+
+	<img alt="" src="../img/eco1.jpg"/>
+	<a href="" style="text-decoration: none;"><h2>Rio terá bolsa de valores para compra de créditos de carbono</h2></a>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust4">
+	<img alt="" src="../img/eco2.jpg"/>
+	<h2>Biometano pode garantir segurança energética no Brasil, diz secretário</h2>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust4">
+	<img alt="" src="../img/eco3.jpg"/>
+	<h2>Congresso debate estratégias de transição para economia verde no país</h2>
+      </div>
+      <hr style="margin-left: 13%; margin-right: 13%; margin-top: 2%;">
+      <div class="artsust4">
+	<img alt="" src="../img/eco4.jpg"/>
+	<h2>Presidente do BNDES fala sobre economia verde ao Brasil em Pauta</h2>
+      </div>
+      </div>
+    </article>
+
+
+    <footer>
+      <div class="box-footer">
+	<div class="img-logo-footer"><img alt="" src="../img/futuroverde.png" style="margin-left: 44%;" /></div>
+	
+	<div class="testelink">
+	  <div class="links-footer2">
+	    <h2 style="margin-bottom: 10px;">SOBRE</h2>
+	    <a href="" style="font-size: 17px;font-weight: bold;">Quem somos</a>
+	  <a href="" style="font-size: 17px;font-weight: bold;">FAQ</a>
+	  <a href="" style="font-size: 17px;font-weight: bold;">Equipe</a>
+	  <a href="" style="font-size: 17px;font-weight: bold;">Fotos & Vídeos</a>
+	  </div>
+		
+	<div class="links-footer2">
+	  <h2 style="margin-bottom: 10px;" >NOTÍCIAS</h2>
+	  <a href="" style="font-size: 17px;font-weight: bold">Todas notícias</a>
+	  <a href="" style="font-size: 17px;font-weight: bold">Destaques</a>
+	  <a href="" style="font-size: 17px;font-weight: bold">Mapa do desmatamento</a>
+	  <br><br>
+	</div>
+	<div class="links-footer2">
+	  <h2 style="margin-bottom: 10px;">FALE CONOSCO</h2>
+	  <a href="" style="font-size: 17px;font-weight: bold">Contatos</a>
+	  <a href="" id="hovernews" style="font-size: 22px;font-weight: bold;margin-top:20px; background-color: #48DB27; padding: 15px 26px; text-decoration: none; ">Assine a newsletter</a>
+	  
+	  <br><br> 
+	</div>
+	<div class="links-footer2" style="border: none;">
+	  <h2 style="margin-bottom: 10px;">SOBRE</h2>
+	  <a href="" style="font-size: 17px; font-weight: bold">Quem somos</a>
+	  <a href="" style="font-size: 17px; font-weight: bold">FAQ</a>
+	  <a href="" style="font-size: 17px; font-weight: bold">Equipe</a>
+	  <br><br>
+	</div>
+	</div>
+      </div>
+      
+         <div class="submenu" style="margin-top:0;">
+      	<div class="btn-headline">
+	  
+	  <div class="icones"> <a href="#"><img style="width: 49px; height: 49px;" alt="" src="../img/face.jpg"/></a> </div>
+	  <div class="icones"> <a href=""><img style="width: 50px; height: 50px;" alt="" src="../img/insta.png"/></a> </div>
+	  <div class="icones"> <a href=""><img style="width: 50px; height: 50px;" alt="" src="../img/twiter.png"/></a> </div>
+	  <div><p>Siga-nos nas redes sociais e fique por dentro de todas as notícias em primeira mão.</p></div>
+	 
+	  
+	</div>
+	 </div>
+    </footer>
+
+
+  
+  </body>
+</html>
+
+
