@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+
+
+header{
+  background-color: black;
+  height: 103px;
+  border-bottom: 3px solid #535353;
+  
+}
+
+.banner{
+  background-color: #d3002f;
+  height: 103px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+
+.menu{
+  height: 40px;
+  
+}
+
+.logo-menu{
+ 
+ 
+  
+}
+
+.logo-menu img{
+  margin-left: 190px;
+  margin-top: 10px;
+  height: 123px;
+  
+}
+
+.socio-torcedor{
+ 
+  
+  margin-top: 35px;
+  margin-left: 15px;
+ 
+}
+
+.socio-torcedor a{
+  padding: 5px 10px;
+  background-color: #bd002a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.socio-torcedor a:hover{
+  background-color: #930021;
+}
+
+.fla-tv{
+
+  
+  margin-top: 35px;
+  margin-left: 10px;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  
+}
+
+.fla-tv a{
+  padding: 5px 10px;
+  background-color: #bd002a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+ 
+}
+
+.fla-tv a:hover{
+  background-color: #930021;
+}
+
+
+.logo-adidas{
+  margin-left: 223px;
+  margin-top: 31px;
+ 
+  
+  }
+
+.logo-adidas img:hover{
+  filter: invert(100%);
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: -30px;
+}
+
+.redes img{
+ margin: 8px;
+}
+
+.redes img:hover{
+  filter: invert(100%);
+} 
+
+.menu{
+  background-color: black;
+  border-bottom: 1px solid #535353;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+  background-color: black;
+  margin-left: 50px;
+}
+
+.menu ul li a{
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 600;
+  border-left: 1px solid #353a40;
+  
+}
+
+.menu ul li ul{
+  display: none;
+}
+
+
+
+.menu ul li:hover ul{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 99;
+  
+}
+
+
+.menu ul li ul a{
+  font-family: Rajdhani, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px;
+  border-bottom: 1px solid #535353;
+  
+  
+}
+
+.menu ul li ul a:hover{
+  background-color: #d3002f;
+  color: white;
+}
+
+.menu ul li a:hover{
+  color: #d3002f;
+}
+
+

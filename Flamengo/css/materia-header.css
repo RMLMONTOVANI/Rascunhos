@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  font-family: Rajdhani, sans-serif;
+}
+
+.news-header{
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #535353;
+  
+}
+
+.news-header a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.materia-header{
+  flex: 50%;
+  height: 470px;
+  overflow: hidden;
+  border: 1px solid #535353;
+  
+}
+
+
+
+.text-materia-header{
+  position: absolute;
+  right: 15%;
+  left: 4%;
+  bottom: 18%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 600px;
+  font-family: Rajdhani, sans-serif;
+  color: white;
+  font-size: 18px;
+  transition: all 0.3s;
+  
+  
+}
+
+
+.text-materia-header h2{
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.8;
+  margin: 25px;
+  
+}
+
+.text-materia-header p{
+  line-height: 0.9;
+  margin: 25px;
+}
+
+.materia-header2{
+  flex: 50%;
+  height: 470px;
+  overflow: hidden;
+  border: 1px solid #535353;
+  
+}
+
+
+
+.text-materia-header2{
+  position: absolute;
+  right: 15%;
+  left: 54.3%;
+  bottom: 18%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 600px;
+  font-family: Rajdhani, sans-serif;
+  color: white;
+  font-size: 18px;
+  
+  
+}
+
+.text-materia-header2 h2{
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.8;
+  margin: 25px;
+  
+}
+
+
+.text-materia-header2 p{
+  line-height: 0.9;
+  margin: 25px;
+  
+  
+}
+
+
+
+
+.camp{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #efefef;
+  height: 425px;
+}
+
+.proxjogo{
+  
+  flex: 50%;
+  
+}
+
+.tabela{
+  
+  flex:50%;
+}
+
+.proxjogoup{
+  
+  text-align: center;
+  margin-top: 50px;
+  line-height: 30px;
+  width: 180px;
+  margin-left: 225px;
+  font-size: 13px;
+  
+  
+}
+
+.proxjogodown{
+  
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+
+.tabelaup{
+  text-align: center;
+  margin-top: 50px;
+  line-height: 30px;
+  width: 180px;
+  margin-left: 225px;
+  font-size: 13px;
+  margin-left: 100px;
+}
+
+#link-tabela{
+  text-decoration: none;
+}
+
+#link-tabela:hover{
+  text-decoration: underline;
+}
+
+
